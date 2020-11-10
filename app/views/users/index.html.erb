@@ -1,0 +1,11 @@
+<h1>All Users</h1>
+
+<ul id="users">
+  <% @user.each do |u| %>
+    <li>
+      <%= link_to  u.username, edit_user_path(u) %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to  "Back to Form", new_user_path %>

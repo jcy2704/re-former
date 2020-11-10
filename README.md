@@ -2,7 +2,7 @@
 
 # Rails Form
 
-Simple form created using Rails. It takes the username, password, and email and it shows the error messages if the inputs do not match the validations.
+Simple form created using Rails. It takes the username, password, and email and it shows the error messages if the inputs do not match the validations. You can also edit and delete the users.
 
 ## Built With
 
