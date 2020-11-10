@@ -1,9 +1,3 @@
-<%= form_for @user do |u| %>
-  <%= u.label :username, 'Username:' %><br />
-  <%= u.text_field :username %><br />
-  <%= u.label :password, 'Password:' %><br />
-  <%= u.password_field :password %><br />
-  <%= u.label :email, 'Email:' %><br />
-  <%= u.email_field :email %><br />
-  <%= u.submit %>
-<% end %>
+<h2>Editing User <%= @user.id %></h2>
+
+<%= render partial: 'form' %>
