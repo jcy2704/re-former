@@ -11,7 +11,7 @@ Simple form created using Rails. It takes the username, password, and email and 
 
 ## Live Preview
 
-[Blogger](https://shielded-sierra-10062.herokuapp.com)
+[Blogger](https://calm-sands-83196.herokuapp.com/)
 
 ## Getting Started
 
